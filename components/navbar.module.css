@@ -1,0 +1,179 @@
+.sidebarItem {
+  color: #1c1c3c;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.sidebarItem:hover {
+  color: #14142c;
+  font-weight: 600;
+}
+
+.textSidebar {
+  color: #1c1c3c;
+  transition: all 0.3s;
+  font-weight: 500;
+}
+
+.textSidebar:hover {
+  color: #14142c;
+  font-weight: 600;
+}
+
+
+.navbar {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar.show {
+  transform: translateY(0);
+}
+
+.navbar.hide {
+  transform: translateY(-100%);
+}
+
+.searchInput {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+  background-color: #2a2a5a;
+  color: white;
+}
+
+.searchButton {
+  background-color: #cecece; /* Neon button background */
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.searchButton:hover {
+  background-color: white; /* Neon button background */
+}
+
+.bottomBar {
+  background-color: #1c1c3c; /* Dark blue background */
+  padding: 5px;
+}
+
+.bottomContent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bottomItems {
+  color: #0ff; /* Neon text */
+  text-decoration: none;
+}
+
+.bottomItems:hover {
+  color: #fff;
+}
+
+.navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.navLink {
+  padding: 10px;
+  color: #cecece;
+  transition: all 0.3s;
+}
+
+.navLinkTwo {
+  padding: 10px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  color: #1c1c3c;
+  background-color: #cecece;
+}
+
+.navLinkSecondary {
+  color: #1c1c3c;
+  transition: all 0.3s;
+}
+
+.navLinkTwo:hover {
+  background-color: #fefefe;
+}
+
+.navLinkSecondary {
+  color: #14142c;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.primaryBtn {
+  transition: background-color 0.3s;
+  background-color: #1c1c3c;
+}
+
+.primaryBtn:hover {
+  background-color: #14142c;
+}
+
+.secondaryBtn {
+  transition: background-color 0.3s;
+  background-color: #fff;
+  color: #1c1c3c;
+  border: 1.5px solid #1c1c3c;
+  border-radius: 5px;
+}
+
+.secondaryBtn:hover {
+  background-color: #e7e7e7
+}
+
+.navLink:hover {
+  color:white;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.seeProducts {
+  transition: background-color 0.3s;
+}
+
+.seeProducts:hover {
+  background-color: rgb(27, 27, 27);
+}
+
+@media (max-width: 767px) {
+  .formContainer {
+    width: 100%;
+  }
+
+  .searchInput {
+    width: 100%;
+    border-radius: 5px;
+  }
+
+  .bottomContent {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bottomItems {
+    margin: 10px 0;
+  }
+}
+
+.text-neon {
+  color: #0ff !important; /* Neon text */
+}
+
+.border-neon {
+  border-color: #0ff; /* Neon border */
+}
