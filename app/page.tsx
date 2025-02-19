@@ -23,7 +23,8 @@ const Home = async () => {
             titles={["TECNOLOGÍA","CALIDAD","RENDIMIENTO"]}
             subtitle="Todo a tu alcance"
             btnText="Prueba DMaJorAI"
-            photoUrl="https://res.cloudinary.com/dbcdnlxle/image/upload/v1719460143/mouselogitechDH_iavvyp.png"
+            //photoUrl="https://res.cloudinary.com/dbcdnlxle/image/upload/v1719460143/mouselogitechDH_iavvyp.png"
+            photoUrl="https://res.cloudinary.com/dbcdnlxle/image/upload/v1739926754/dmajor-mouse_l0nk5j.png"
           />      
         <div className="flex space-y-10 flex-col gap-y-8 px-4 sm:px-6 lg:px-36 ">
           
